@@ -1,0 +1,18 @@
+# CodeIgniter
+/application/cache/*
+/application/logs/*
+/vendor/
+/.env
+
+# Composer
+composer.lock
+
+# System files
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
