@@ -17,3 +17,5 @@ $routes->post('/login/process', 'Auth::processLogin');
 // Rute untuk Dashboard dan Logout
 $routes->get('/dashboard', 'Dashboard::index'); // <-- Rute untuk halaman dashboard
 $routes->get('/logout', 'Auth::logout'); // <-- Rute untuk logout
+// Contoh rute dashboard yang mungkin sudah Anda miliki
+$routes->get('/dashboard', 'Dashboard::index', ['filter' => 'auth']);
